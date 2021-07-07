@@ -11,6 +11,10 @@ import { AppComponent } from './app.component';
 
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
+import { FormsModule } from '@angular/forms';
+
+
+
 
 
 
@@ -23,6 +27,8 @@ import { RegisterComponent } from './login/register.component';
     AppComponent,
     LoginComponent,
     RegisterComponent,
+    
+    
     // NopagefoundComponent,
   ],
   imports: [
@@ -30,8 +36,8 @@ import { RegisterComponent } from './login/register.component';
     APP_ROUTES,
     //importacion de los modelos pages y de ahi sige shared
     PagesModule,
-    
-  
+    FormsModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
