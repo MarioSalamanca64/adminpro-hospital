@@ -7,10 +7,16 @@ import { APP_ROUTES } from './app.routes';
 //Modulos
 import { PagesModule } from './pages/pages.module';
 
-import { AppComponent } from './app.component';
+//Servicios
+import { ServiceModule } from './services/service.module';
 
+
+//componentes
+import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
+
+//tEMPORAL
 import { FormsModule } from '@angular/forms';
 
 
@@ -37,6 +43,7 @@ import { FormsModule } from '@angular/forms';
     //importacion de los modelos pages y de ahi sige shared
     PagesModule,
     FormsModule,
+    ServiceModule
    
   ],
   providers: [],
