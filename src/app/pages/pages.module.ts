@@ -21,6 +21,8 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
 //ng2-charts graficas 
 import { ChartsModule } from 'ng2-charts';
 import { AccoutSettingComponent } from './accout-setting/accout-setting.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -33,7 +35,9 @@ import { AccoutSettingComponent } from './accout-setting/accout-setting.componen
     Graficas1Component,
     IncrementadorComponent,
     GraficoDonaComponent,
-    AccoutSettingComponent
+    AccoutSettingComponent,
+    PromesasComponent,
+    RxjsComponent
     
 
   ],
